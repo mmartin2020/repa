@@ -1,0 +1,359 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.grocers.delivery_boy"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:5:5-66
+14-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:3:5-79
+15-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:3:22-76
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:4:5-64
+16-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:4:22-62
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:6:5-80
+17-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:6:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:7:5-66
+18-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:7:22-63
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:8:5-68
+19-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:8:22-65
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->[:location] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+20-->[:location] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+21    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+21-->[:flutter_local_notifications] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+21-->[:flutter_local_notifications] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:22:5-79
+22-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:22:22-76
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:26:22-79
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+24-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/fa5d472200c186e51fd2aca5d0461a08/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/fa5d472200c186e51fd2aca5d0461a08/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/fa5d472200c186e51fd2aca5d0461a08/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+29
+30    <application
+30-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:15:5-49:19
+31        android:name="io.flutter.app.FlutterApplication"
+31-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:16:9-57
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.2] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/49e3f340f291aa1f2d3bb2f76a568f28/core-1.3.2/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:18:9-43
+35        android:label="Flashliver - Repartidor" >
+35-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:17:9-48
+36        <meta-data
+36-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:19:9-20:73
+37            android:name="com.google.android.geo.API_KEY"
+37-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:19:20-65
+38            android:value="AIzaSyAKJf1g3IxcYUQd_DyVdQANPmYxOXQQMD8" />
+38-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:20:16-71
+39
+40        <activity
+40-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:21:9-36:20
+41            android:name="com.example.delivery_boy.MainActivity"
+41-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:22:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:25:13-163
+43            android:hardwareAccelerated="true"
+43-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:26:13-47
+44            android:launchMode="singleTop"
+44-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:23:13-43
+45            android:theme="@style/LaunchTheme"
+45-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:24:13-47
+46            android:windowSoftInputMode="adjustResize" >
+46-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:27:13-55
+47            <intent-filter>
+47-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:28:13-31:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:29:17-68
+48-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:29:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:30:17-76
+50-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:30:27-74
+51            </intent-filter>
+52            <intent-filter>
+52-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:32:13-35:29
+53                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+53-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:33:17-69
+53-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:33:25-66
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:34:17-76
+55-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:34:27-73
+56            </intent-filter>
+57        </activity>
+58
+59        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+59-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:37:10-107
+59-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:37:20-104
+60        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+60-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:38:9-43:20
+60-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:38:19-107
+61            <intent-filter>
+61-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:39:13-42:29
+62                <action android:name="android.intent.action.BOOT_COMPLETED" />
+62-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:40:17-78
+62-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:40:25-76
+63                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+63-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:41:17-83
+63-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:41:25-81
+64            </intent-filter>
+65            <intent-filter>
+65-->[:flutter_local_notifications] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-19:29
+66                <action android:name="android.intent.action.BOOT_COMPLETED" />
+66-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:40:17-78
+66-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:40:25-76
+67                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+67-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:41:17-83
+67-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:41:25-81
+68                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+68-->[:flutter_local_notifications] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
+68-->[:flutter_local_notifications] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
+69                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+69-->[:flutter_local_notifications] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-82
+69-->[:flutter_local_notifications] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:25-79
+70            </intent-filter>
+71        </receiver>
+72        <!--
+73             Don't delete the meta-data below.
+74             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+75        -->
+76        <meta-data
+76-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:46:9-48:33
+77            android:name="flutterEmbedding"
+77-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:47:13-44
+78            android:value="2" />
+78-->/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/android/app/src/main/AndroidManifest.xml:48:13-30
+79
+80        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+80-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+80-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-101
+81            <intent-filter>
+81-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+82                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+82-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+82-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+83            </intent-filter>
+84        </service>
+85        <service
+85-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
+86            android:name="com.google.firebase.components.ComponentDiscoveryService"
+86-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-89
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:19.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/d3a2a66601dcaf45d671cfc31f70deba/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-messaging:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8054554b25feb928bef47c563422b7a7/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:38:13-37
+89            <meta-data
+89-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+90-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
+92            <meta-data
+92-->[:firebase_core] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+93                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+93-->[:firebase_core] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[:firebase_core] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-messaging:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8054554b25feb928bef47c563422b7a7/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:39:13-41:85
+96                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+96-->[com.google.firebase:firebase-messaging:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8054554b25feb928bef47c563422b7a7/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:40:17-119
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-messaging:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8054554b25feb928bef47c563422b7a7/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:41:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:32:13-34:85
+99                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+99-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:33:17-96
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:34:17-82
+101            <meta-data
+101-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/5db1487da7e07b46551d553576f51348/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+102                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+102-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/5db1487da7e07b46551d553576f51348/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/5db1487da7e07b46551d553576f51348/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-datatransport:17.0.3] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/60c85a0be494e74aa323dec80df35b3a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+105                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+105-->[com.google.firebase:firebase-datatransport:17.0.3] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/60c85a0be494e74aa323dec80df35b3a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-datatransport:17.0.3] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/60c85a0be494e74aa323dec80df35b3a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-installations:16.3.3] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8e29f675b0d6e5c59802782e76cec380/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+108                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+108-->[com.google.firebase:firebase-installations:16.3.3] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8e29f675b0d6e5c59802782e76cec380/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-installations:16.3.3] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8e29f675b0d6e5c59802782e76cec380/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+110        </service>
+111        <service
+111-->[:location] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+112            android:name="com.lyokone.location.FlutterLocationService"
+112-->[:location] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
+113            android:enabled="true"
+113-->[:location] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+114            android:exported="false"
+114-->[:location] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+115            android:foregroundServiceType="location" />
+115-->[:location] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+116
+117        <activity
+117-->[:url_launcher] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+118            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+118-->[:url_launcher] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+119            android:exported="false"
+119-->[:url_launcher] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+120            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+120-->[:url_launcher] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+121        <!--
+122             FirebaseMessagingService performs security checks at runtime,
+123             but set to not exported to explicitly avoid allowing another app to call it.
+124        -->
+125        <service
+125-->[com.google.firebase:firebase-messaging:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8054554b25feb928bef47c563422b7a7/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:28:9-35:19
+126            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+126-->[com.google.firebase:firebase-messaging:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8054554b25feb928bef47c563422b7a7/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:29:13-82
+127            android:directBootAware="true"
+127-->[com.google.firebase:firebase-messaging:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8054554b25feb928bef47c563422b7a7/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:30:13-43
+128            android:exported="false" >
+128-->[com.google.firebase:firebase-messaging:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/8054554b25feb928bef47c563422b7a7/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:31:13-37
+129            <intent-filter android:priority="-500" >
+129-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+130-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+130-->[:firebase_messaging] /home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+131            </intent-filter>
+132        </service>
+133
+134        <receiver
+134-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:37:9-44:20
+135            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+135-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:38:13-78
+136            android:exported="true"
+136-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:39:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:40:13-73
+138            <intent-filter>
+138-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:41:13-43:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:42:17-81
+139-->[com.google.firebase:firebase-iid:20.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/e817a78a249b95d52e197031e860df2f/jetified-firebase-iid-20.3.0/AndroidManifest.xml:42:25-78
+140            </intent-filter>
+141        </receiver>
+142        <receiver
+142-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+143            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+143-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+145            android:exported="false" >
+145-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+146        </receiver>
+147
+148        <service
+148-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+149            android:name="com.google.android.gms.measurement.AppMeasurementService"
+149-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+151            android:exported="false" />
+151-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+152        <service
+152-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+153            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+153-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+154            android:enabled="true"
+154-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+156-->[com.google.android.gms:play-services-measurement:17.6.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/cfb41e1a74183e729ed7c1f1729f11ee/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+157        <uses-library
+157-->[com.google.android.gms:play-services-maps:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/fa5d472200c186e51fd2aca5d0461a08/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+158            android:name="org.apache.http.legacy"
+158-->[com.google.android.gms:play-services-maps:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/fa5d472200c186e51fd2aca5d0461a08/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+159            android:required="false" />
+159-->[com.google.android.gms:play-services-maps:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/fa5d472200c186e51fd2aca5d0461a08/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+160
+161        <activity
+161-->[com.google.android.gms:play-services-base:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/354b2b81a8a059590c12f6edd746cf2d/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+162            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+162-->[com.google.android.gms:play-services-base:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/354b2b81a8a059590c12f6edd746cf2d/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+163            android:exported="false"
+163-->[com.google.android.gms:play-services-base:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/354b2b81a8a059590c12f6edd746cf2d/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+164-->[com.google.android.gms:play-services-base:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/354b2b81a8a059590c12f6edd746cf2d/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+165
+166        <provider
+166-->[com.google.firebase:firebase-common:19.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/d3a2a66601dcaf45d671cfc31f70deba/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+167            android:name="com.google.firebase.provider.FirebaseInitProvider"
+167-->[com.google.firebase:firebase-common:19.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/d3a2a66601dcaf45d671cfc31f70deba/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+168            android:authorities="com.grocers.delivery_boy.firebaseinitprovider"
+168-->[com.google.firebase:firebase-common:19.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/d3a2a66601dcaf45d671cfc31f70deba/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+169            android:exported="false"
+169-->[com.google.firebase:firebase-common:19.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/d3a2a66601dcaf45d671cfc31f70deba/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+170            android:initOrder="100" />
+170-->[com.google.firebase:firebase-common:19.3.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/d3a2a66601dcaf45d671cfc31f70deba/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+171
+172        <meta-data
+172-->[com.google.android.gms:play-services-basement:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/ab815a4ab935fe0b0387a344b41d65d3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+173            android:name="com.google.android.gms.version"
+173-->[com.google.android.gms:play-services-basement:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/ab815a4ab935fe0b0387a344b41d65d3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+174            android:value="@integer/google_play_services_version" />
+174-->[com.google.android.gms:play-services-basement:17.0.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/ab815a4ab935fe0b0387a344b41d65d3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+175
+176        <service
+176-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/7f744ef66627a5ebe36417bb0ba0cad3/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+177            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+177-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/7f744ef66627a5ebe36417bb0ba0cad3/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+178            android:exported="false" >
+178-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/7f744ef66627a5ebe36417bb0ba0cad3/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+179            <meta-data
+179-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/7f744ef66627a5ebe36417bb0ba0cad3/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+180                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+180-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/7f744ef66627a5ebe36417bb0ba0cad3/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+181                android:value="cct" />
+181-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/7f744ef66627a5ebe36417bb0ba0cad3/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+182        </service>
+183        <service
+183-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/1362713671bf64b6d1d9e908dce81ab7/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+184            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+184-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/1362713671bf64b6d1d9e908dce81ab7/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+185            android:exported="false"
+185-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/1362713671bf64b6d1d9e908dce81ab7/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+186            android:permission="android.permission.BIND_JOB_SERVICE" >
+186-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/1362713671bf64b6d1d9e908dce81ab7/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+187        </service>
+188
+189        <receiver
+189-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/1362713671bf64b6d1d9e908dce81ab7/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+190            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+190-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/1362713671bf64b6d1d9e908dce81ab7/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+191            android:exported="false" />
+191-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/sprtuser/.gradle/caches/transforms-2/files-2.1/1362713671bf64b6d1d9e908dce81ab7/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+192    </application>
+193
+194</manifest>

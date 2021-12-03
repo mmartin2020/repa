@@ -1,0 +1,4 @@
+#Fri Dec 03 16:41:28 CLST 2021
+base.0=/home/sprtuser/Escritorio/APP grocers/package_27sept/03122021/delivery_boy/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

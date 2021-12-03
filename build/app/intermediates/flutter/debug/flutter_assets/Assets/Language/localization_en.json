@@ -1,0 +1,10 @@
+{
+    "login_email": "Email",
+    "login_password": "Password",
+    "login_forget_pass": "Forgot password?",
+    "btn_login": "Login",
+    "btn_signup_new": "Sign up an account",
+    "search_hint": "Search here...",
+    "pop_restaurant": "Popular Restaurant",
+    "pop_recentSearched":"Recent Searched"
+}
